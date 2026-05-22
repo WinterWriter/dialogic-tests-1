@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://d0embj3q4i6h0"]
+
+[ext_resource type="Script" uid="uid://cdmj5be3m73n4" path="res://Scripts/dialoguescroll.gd" id="1_4ilq6"]
+[ext_resource type="Script" uid="uid://btycp44yvlk8i" path="res://Scripts/choice.gd" id="2_lx6bv"]
+
+[node name="Custome Scrolling Dialogue" type="Panel" unique_id=334161946]
+offset_left = 742.0
+offset_top = 5.0
+offset_right = 1001.0
+offset_bottom = 467.0
+
+[node name="vb" type="VBoxContainer" parent="." unique_id=828084326]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="dialogue" type="RichTextLabel" parent="vb" unique_id=1110222902]
+layout_mode = 2
+size_flags_vertical = 3
+script = ExtResource("1_4ilq6")
+
+[node name="choice" type="RichTextLabel" parent="vb" unique_id=47707878]
+layout_mode = 2
+size_flags_vertical = 3
+script = ExtResource("2_lx6bv")

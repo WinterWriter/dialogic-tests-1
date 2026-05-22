@@ -1,0 +1,66 @@
+[gd_resource type="Resource" script_class="DialogicStyle" format=3 uid="uid://pij0uxvhg72e"]
+
+[ext_resource type="PackedScene" uid="uid://cqpb3ie51rwl5" path="res://addons/dialogic/Modules/DefaultLayoutParts/Base_Default/default_layout_base.tscn" id="1_jp2h8"]
+[ext_resource type="Script" uid="uid://bwg6yncmh2cml" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="2_8c1pv"]
+[ext_resource type="PackedScene" uid="uid://c1k5m0w3r40xf" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn" id="3_yy6o7"]
+[ext_resource type="PackedScene" uid="uid://cy1y14inwkplb" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn" id="4_b4bfy"]
+[ext_resource type="PackedScene" uid="uid://cn674foxwedqu" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn" id="5_75kkx"]
+[ext_resource type="PackedScene" uid="uid://r6p1m5yevini" path="res://Styles/Layouts/VisualNovelTextbox/custom_visual_novel_textbox.tscn" id="6_jp2h8"]
+[ext_resource type="PackedScene" uid="uid://dsbwnp5hegnu3" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn" id="7_pnl4g"]
+[ext_resource type="PackedScene" uid="uid://d3jxe3ao6jew0" path="res://Styles/Layouts/CenteredChoices/custom_centered_choices.tscn" id="8_jp2h8"]
+[ext_resource type="PackedScene" uid="uid://cvgf4c6gg0tsy" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn" id="9_tfcfw"]
+[ext_resource type="PackedScene" uid="uid://lx24i8fl6uo" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn" id="10_srknr"]
+[ext_resource type="Script" uid="uid://dv08k6ljua6fm" path="res://addons/dialogic/Resources/dialogic_style.gd" id="11_vjrs7"]
+
+[sub_resource type="Resource" id="Resource_5irfn"]
+script = ExtResource("2_8c1pv")
+scene = ExtResource("1_jp2h8")
+
+[sub_resource type="Resource" id="Resource_kj63p"]
+script = ExtResource("2_8c1pv")
+scene = ExtResource("3_yy6o7")
+
+[sub_resource type="Resource" id="Resource_tqp7f"]
+script = ExtResource("2_8c1pv")
+scene = ExtResource("4_b4bfy")
+
+[sub_resource type="Resource" id="Resource_na54r"]
+script = ExtResource("2_8c1pv")
+scene = ExtResource("5_75kkx")
+
+[sub_resource type="Resource" id="Resource_3dhsy"]
+script = ExtResource("2_8c1pv")
+scene = ExtResource("6_jp2h8")
+
+[sub_resource type="Resource" id="Resource_2tfw3"]
+script = ExtResource("2_8c1pv")
+scene = ExtResource("7_pnl4g")
+
+[sub_resource type="Resource" id="Resource_f6djf"]
+script = ExtResource("2_8c1pv")
+scene = ExtResource("8_jp2h8")
+
+[sub_resource type="Resource" id="Resource_jcxfc"]
+script = ExtResource("2_8c1pv")
+scene = ExtResource("9_tfcfw")
+
+[sub_resource type="Resource" id="Resource_ax5dn"]
+script = ExtResource("2_8c1pv")
+scene = ExtResource("10_srknr")
+
+[resource]
+script = ExtResource("11_vjrs7")
+name = "CustVizNov"
+layer_list = Array[String](["10", "11", "12", "13", "14", "15", "16", "17"])
+layer_info = {
+"": SubResource("Resource_5irfn"),
+"10": SubResource("Resource_kj63p"),
+"11": SubResource("Resource_tqp7f"),
+"12": SubResource("Resource_na54r"),
+"13": SubResource("Resource_3dhsy"),
+"14": SubResource("Resource_2tfw3"),
+"15": SubResource("Resource_f6djf"),
+"16": SubResource("Resource_jcxfc"),
+"17": SubResource("Resource_ax5dn")
+}
+metadata/_latest_layer = "13"

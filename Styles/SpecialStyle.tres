@@ -1,0 +1,21 @@
+[gd_resource type="Resource" script_class="DialogicStyle" format=3 uid="uid://0m43w6ohaxm0"]
+
+[ext_resource type="PackedScene" uid="uid://ck5w6i81fdjbr" path="res://Styles/Layouts/CustomSpecialStyle/custom_special_style.tscn" id="1_idq26"]
+[ext_resource type="Script" uid="uid://bwg6yncmh2cml" path="res://addons/dialogic/Resources/dialogic_style_layer.gd" id="2_26jk2"]
+[ext_resource type="Script" uid="uid://dv08k6ljua6fm" path="res://addons/dialogic/Resources/dialogic_style.gd" id="3_n0jxb"]
+
+[sub_resource type="Resource" id="Resource_j0ge4"]
+script = ExtResource("2_26jk2")
+scene = ExtResource("1_idq26")
+overrides = {
+"global_bg_color": "Color(0.08683976, 0.09375, 0.08605957, 0.9019608)",
+"global_font_color": "Color(0.80859375, 0.7829304, 0.15161133, 1)"
+}
+
+[resource]
+script = ExtResource("3_n0jxb")
+name = "SpecialStyle"
+layer_info = {
+"": SubResource("Resource_j0ge4")
+}
+metadata/_latest_layer = ""
