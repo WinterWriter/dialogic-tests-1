@@ -2,7 +2,7 @@ extends VBoxContainer
 
 func _ready():
 	# Connect to the CORRECT signals
-	Dialogic.Choices.choice_buttons_shown.connect(_on_choices_shown)  # Fixed function name
+	Dialogic.Choices.question_shown.connect(_on_choices_shown)
 	Dialogic.Choices.choice_selected.connect(_on_choice_selected)
 	hide()
 
