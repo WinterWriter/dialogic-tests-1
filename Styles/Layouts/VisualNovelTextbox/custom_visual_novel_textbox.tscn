@@ -12,7 +12,6 @@
 [ext_resource type="Script" uid="uid://bklme8oymw6h7" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/autoadvance_indicator.gd" id="6_07xym"]
 [ext_resource type="Texture2D" uid="uid://b0rpqfg4fhebk" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/next.svg" id="6_uch03"]
 [ext_resource type="Script" uid="uid://bak74s0kcr0ao" path="res://addons/dialogic/Modules/Text/node_name_label.gd" id="7_bi7sh"]
-[ext_resource type="Script" uid="uid://bldt7xlfum7ov" path="res://addons/dialogic/Modules/Choice/node_choice_button.gd" id="8_6s53x"]
 [ext_resource type="StyleBox" uid="uid://m7gyepkysu83" path="res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_name_label_panel.tres" id="9_yg8ig"]
 
 [sub_resource type="Animation" id="Animation_au0a2"]
@@ -265,6 +264,7 @@ mouse_filter = 2
 [node name="DialogTextPanel" type="PanelContainer" parent="Anchor/AnimationParent/Sizer" unique_id=1821478009]
 unique_name_in_owner = true
 self_modulate = Color(0.00784314, 0.00784314, 0.00784314, 0.843137)
+clip_contents = true
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
@@ -303,11 +303,6 @@ script = ExtResource("4_6cno2")
 [node name="ChoiceContainer" type="VBoxContainer" parent="Anchor/AnimationParent/Sizer/DialogTextPanel/Custome Scrolling Dialogue2/vb" unique_id=2011754387]
 layout_mode = 2
 script = ExtResource("5_o7foo")
-
-[node name="Choice" type="Button" parent="Anchor/AnimationParent/Sizer/DialogTextPanel/Custome Scrolling Dialogue2/vb/ChoiceContainer" unique_id=775660173]
-layout_mode = 2
-script = ExtResource("8_6s53x")
-metadata/_custom_type_script = "uid://bldt7xlfum7ov"
 
 [node name="NextIndicator" type="Control" parent="Anchor/AnimationParent/Sizer/DialogTextPanel" unique_id=484700506]
 unique_name_in_owner = true
