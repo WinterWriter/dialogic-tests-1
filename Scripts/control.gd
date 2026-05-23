@@ -26,8 +26,9 @@
 	
 extends Control
 
-@onready var dialogue_log: RichTextLabel = $Panel/VBoxContainer/DialogueLog
-@onready var choice_container: VBoxContainer = $Panel/VBoxContainer/ChoiceContainer
+@onready var dialogue_log: RichTextLabel = $"Custome Scrolling Dialogue2/vb/dialogue"
+@onready var choice_container: VBoxContainer = $"Custome Scrolling Dialogue2/vb/ChoiceContainer"
+
 
 func _ready():
 	# Connect to Dialogic timeline events

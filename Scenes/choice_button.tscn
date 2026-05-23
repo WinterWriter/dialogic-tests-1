@@ -3,7 +3,7 @@
 [ext_resource type="Script" uid="uid://bhjfa73lyys02" path="res://DiscoChoiceButton.gd" id="1_6sk7x"]
 
 [node name="Choice Button" type="Button" unique_id=115064311]
-offset_right = 77.0
+offset_right = 184.0
 offset_bottom = 29.0
-autowrap_mode = 2
+autowrap_mode = 3
 script = ExtResource("1_6sk7x")

@@ -306,6 +306,7 @@ script = ExtResource("5_o7foo")
 
 [node name="Choice Button" parent="Anchor/AnimationParent/Sizer/DialogTextPanel/control/Custome Scrolling Dialogue2/vb/ChoiceContainer" unique_id=115064311 instance=ExtResource("6_6s53x")]
 layout_mode = 2
+autowrap_mode = 3
 
 [node name="Choice Button2" parent="Anchor/AnimationParent/Sizer/DialogTextPanel/control/Custome Scrolling Dialogue2/vb/ChoiceContainer" unique_id=1125947085 instance=ExtResource("6_6s53x")]
 layout_mode = 2
