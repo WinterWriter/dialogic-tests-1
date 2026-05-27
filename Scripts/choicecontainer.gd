@@ -4,6 +4,7 @@ func _ready():
 	# Connect to the CORRECT signals
 	Dialogic.Choices.question_shown.connect(_on_choices_shown)
 	Dialogic.Choices.choice_selected.connect(_on_choice_selected)
+	
 	hide()
 
 func _on_choices_shown(choice_info: Dictionary):
