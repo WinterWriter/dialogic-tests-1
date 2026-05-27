@@ -281,10 +281,12 @@ metadata/_edit_layout_mode = 1
 
 [node name="control" type="Control" parent="Anchor/AnimationParent/Sizer/DialogTextPanel" unique_id=1312302000]
 layout_mode = 2
+mouse_filter = 2
 script = ExtResource("4_qfgr6")
 
 [node name="Custome Scrolling Dialogue2" type="Panel" parent="Anchor/AnimationParent/Sizer/DialogTextPanel" unique_id=1712887712]
 layout_mode = 2
+mouse_filter = 2
 
 [node name="vb" type="VBoxContainer" parent="Anchor/AnimationParent/Sizer/DialogTextPanel/Custome Scrolling Dialogue2" unique_id=1594076722]
 clip_contents = true
@@ -294,10 +296,12 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+mouse_filter = 2
 
 [node name="dialogue" type="RichTextLabel" parent="Anchor/AnimationParent/Sizer/DialogTextPanel/Custome Scrolling Dialogue2/vb" unique_id=1647005837]
 layout_mode = 2
 size_flags_vertical = 3
+mouse_filter = 2
 script = ExtResource("4_6cno2")
 
 [node name="ChoiceContainer" type="VBoxContainer" parent="Anchor/AnimationParent/Sizer/DialogTextPanel/Custome Scrolling Dialogue2/vb" unique_id=2011754387]
