@@ -1,17 +1,15 @@
 extends RichTextLabel
 
-var padding_added := false
+#var padding_added := false
 
 func _ready():
-	fit_content = true
-	scroll_active = true
-	autowrap_mode = TextServer.AUTOWRAP_WORD
+	
 	
 	# Add padding once at start
-	if not padding_added:
-		for _i in range(5):
-			text += "\n"
-		padding_added = true
+	#if not padding_added:
+		#for _i in range(5):
+			#text += "\n"
+		#padding_added = true
 	
 	Dialogic.Text.about_to_show_text.connect(_on_about_to_show_text)
 
